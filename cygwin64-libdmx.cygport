@@ -1,0 +1,11 @@
+CROSS_HOST="x86_64-pc-cygwin"
+ORIG_PN="libdmx"
+inherit cross xorg
+
+NAME="cygwin64-libdmx"
+VERSION=1.1.2
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="X.Org DMX library for Cygwin 64bit toolchain"
+
+MAKEOPTS+=" libman_DATA= "
